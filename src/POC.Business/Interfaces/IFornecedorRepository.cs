@@ -8,6 +8,8 @@ namespace POC.Business.Interfaces
 
         Task<Fornecedor> ObterFornecedorProdutosEndereco(Guid id);
 
-        Task<Fornecedor> ObterEnderecoPorFornecedor(Guid fornecedorId);
+        Task<Endereco> ObterEnderecoPorFornecedor(Guid fornecedorId);
+
+        Task RemoverEnderecoFornecedor(Endereco endereco);
     }
 }
