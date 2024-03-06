@@ -10,6 +10,7 @@
         public string? Cidade { get; set; }
         public string? Estado { get; set; }
 
-        // add id fornecedor
+        /* EF Relation */
+        public Fornecedor Fornecedor { get; set; }
     }
 }
