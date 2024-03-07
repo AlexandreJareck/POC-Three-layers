@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POC.Data", "src\POC.Data\POC.Data.csproj", "{8AE37E04-BEDD-4942-801B-BBD62C298604}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POC.Data", "src\POC.Data\POC.Data.csproj", "{8AE37E04-BEDD-4942-801B-BBD62C298604}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POC.Business", "src\POC.Business\POC.Business.csproj", "{8A7206C6-2030-4A16-BE8E-723662A0E801}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POC.Business", "src\POC.Business\POC.Business.csproj", "{8A7206C6-2030-4A16-BE8E-723662A0E801}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POC.Api", "src\POC.Api\POC.Api.csproj", "{4E6F2521-FAC7-4501-B765-03430B86F822}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8A7206C6-2030-4A16-BE8E-723662A0E801}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A7206C6-2030-4A16-BE8E-723662A0E801}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A7206C6-2030-4A16-BE8E-723662A0E801}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E6F2521-FAC7-4501-B765-03430B86F822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E6F2521-FAC7-4501-B765-03430B86F822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E6F2521-FAC7-4501-B765-03430B86F822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E6F2521-FAC7-4501-B765-03430B86F822}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
